@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pavir</title>
+    <link rel="stylesheet" href="../Pivotantes/pivotantes.css" />
+    <link rel="stylesheet" href="../aberturas/aberturas.css" />
+    <link rel="stylesheet" href="../clasica/clasica.css" />
+    <link rel="stylesheet" href="../home/home.css" />
+    <link rel="stylesheet" href="pavir.css" />
+    <link rel="stylesheet" href="../css/estilos-globales.css" />
+  </head>
+  <body>
+    <main>
+      <!-- ===========================
+                INICIO: Navegación principal
+        =========================== -->
+      <nav class="nav-top" role="navigation" aria-label="Menú principal">
+        <img
+          src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/08/logoWhite.png"
+          alt="Logo"
+          class="nav-logo"
+        />
+
+        <button
+          class="nav-hamburger"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+        >
+          &#9776;
+        </button>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li>
+            <a href="https://am-subdominio.pavir.com.ar/wp/clasica/">CLASICA</a>
+          </li>
+          <li>
+            <a href="https://am-subdominio.pavir.com.ar/wp/lujan/">LUJAN</a>
+          </li>
+          <li>
+            <a href="https://am-subdominio.pavir.com.ar/wp/pavir/">PAVIR</a>
+          </li>
+          <li>
+            <a href="https://am-subdominio.pavir.com.ar/wp/pivotantes/"
+              >PIVOTANTES</a
+            >
+          </li>
+          <li>
+            <a href="https://am-subdominio.pavir.com.ar/wp/aberturas/"
+              >ABERTURAS</a
+            >
+          </li>
+          <li>
+            <a href="https://am-subdominio.pavir.com.ar/wp/contacto/"
+              >CONTACTO</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- ===========================
+                FIN: Navegación principal
+        =========================== -->
+
+      <!-- ===========================
+                INICIO: CARRUSEL HERO
+        =========================== -->
+
+      <div
+        class="pavir-carruselPrincipal-hero"
+        id="pavir-carruselPrincipal-hero"
+        style="
+          background-image: url('https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/ej_1.webp');
+        "
+      >
+        <div class="pavir-carruselPrincipal-overlay"></div>
+
+        <!-- Texto dinámico -->
+        <div
+          class="pavir-carruselPrincipal-info"
+          id="pavir-carruselPrincipal-info"
+        >
+          <h2>Linea Pavir</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+            dolore molestias quidem ea magni a at accusamus distinctio esse
+            delectus accusantium maxime sed, id, pariatur vero aliquam, quo
+            voluptatibus cum!
+          </p>
+          <button id="pavir-carruselPrincipal-verLinea">Ver línea</button>
+        </div>
+
+        <!-- Cards -->
+        <div class="pavir-carruselPrincipal-carousel">
+          <div
+            class="pavir-carruselPrincipal-card"
+            data-title="BLANCO ANTÁRTIDA"
+            data-text="El equilibrio perfecto entre diseño, ingeniería y seguridad."
+            data-bg="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/ej_1.webp"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/ej_1_MINIATURA.webp"
+              alt=""
+            />
+            <h3>Blanco Antártida</h3>
+          </div>
+          <div
+            class="pavir-carruselPrincipal-card"
+            data-title="GRIS GRAFITO"
+            data-text="El equilibrio perfecto entre diseño, ingeniería y seguridad."
+            data-bg="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/ej_2.webp"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/ej_2_MINIATURA.webp"
+              alt=""
+            />
+            <h3>Gris Garfito</h3>
+          </div>
+          <div
+            class="pavir-carruselPrincipal-card"
+            data-title="RESIDENCIALES"
+            data-text="Puertas de presencia imponente, diseño sobrio y seguridad reforzada"
+            data-bg="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/ej_4.webp"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/ej_3_MINIATURA.webp"
+              alt=""
+            />
+            <h3>Residenciales</h3>
+          </div>
+          <div
+            class="pavir-carruselPrincipal-card"
+            data-title="ACERO SÍMIL"
+            data-text="La calidez de la madera, la resistencia del acero."
+            data-bg="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/ej_aserosimil.webp"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/ej_aserosimil_miniatura.webp"
+              alt=""
+            />
+            <h3>Asero Símil</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===========================
+                FIN: CARRUSEL HERO
+        =========================== -->
+
+      <!-- ===========================
+        INICIO: SECCION 1
+=========================== -->
+      <section
+        id="pavir-section1-acordeon"
+        class="pavir-section-acordeon caracteristicas"
+        aria-label="Sección acordeón 1"
+      >
+        <div
+          class="pavir-section-image-container caracteristicas"
+          role="img"
+          aria-label="Imagen de fondo decorativa 1"
+        >
+          <img
+            src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/2151302657.jpg"
+            alt="Fondo decorativo de sección 1"
+          />
+        </div>
+        <div class="pavir-section-overlay caracteristicas">
+          <h1 class="pavir-section-title caracteristicas">
+            BLANCO ANTÁRTIDA Y GRIS GRAFITO
+          </h1>
+          <p class="pavir-p-descripcion-imagen caracteristicas">
+            <strong
+              >Equilibrio perfecto entre diseño, ingeniería y seguridad.</strong
+            ><br />
+            La Línea Pavir marca la diferencia por su terminación premium y su
+            construcción robusta. <br />
+            Con detalles cuidados y tecnología aplicada, es la opción ideal para
+            proyectos que buscan estética, seguridad y resistencia sin
+            concesiones.
+          </p>
+          <button
+            id="pavir-section1-toggle-button"
+            class="pavir-section-button caracteristicas"
+            aria-expanded="false"
+            aria-controls="pavir-section1-acordeon-content"
+          >
+            CARACTERÍSTICAS/MODELOS
+          </button>
+        </div>
+        <div
+          id="pavir-section1-acordeon-content"
+          class="pavir-section-content caracteristicas"
+          hidden
+        >
+          <h2 class="pavir-encabezados caracteristicas">CARACTERÍSTICAS</h2>
+          <section
+            class="pavir-cards-row caracteristicas"
+            aria-label="Sección de cartas informativas"
+          >
+            <div
+              class="pavir-card-container caracteristicas"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Máxima resistencia y estabilidad"
+            >
+              <div class="pavir-card caracteristicas">
+                <div class="pavir-front caracteristicas">
+                  <div class="pavir-front-content caracteristicas">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/marco45.png"
+                      alt="Icono de resistencia"
+                    />
+                    <h4>Marco corte a 45°</h4>
+                  </div>
+                  <div class="pavir-icon caracteristicas" aria-hidden="true">
+                    +
+                  </div>
+                </div>
+                <div class="pavir-back caracteristicas">
+                  <p>
+                    Mayor rigidez estructural y terminación superior, con acero
+                    electrozincado. Chapa de 18, ofrece óptima resistencia a la
+                    corrosión.
+                  </p>
+                  <div class="pavir-icon caracteristicas" aria-hidden="true">
+                    x
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Se repite card-container para cada característica, con clase característica -->
+            <div
+              class="pavir-card-container caracteristicas"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Máxima resistencia y estabilidad"
+            >
+              <div class="pavir-card caracteristicas">
+                <div class="pavir-front caracteristicas">
+                  <div class="pavir-front-content caracteristicas">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/cerradura.png"
+                      alt="Icono de resistencia"
+                    />
+                    <h4>Cerradura Europerfil</h4>
+                  </div>
+                  <div class="pavir-icon caracteristicas" aria-hidden="true">
+                    +
+                  </div>
+                </div>
+                <div class="pavir-back caracteristicas">
+                  <p>
+                    Sistema de cierre de máxima seguridad y compatibilidad. Con
+                    herrajes acero inoxidable 316, resistencia total a la
+                    corrosión.
+                  </p>
+                  <div class="pavir-icon caracteristicas" aria-hidden="true">
+                    x
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pavir-card-container caracteristicas"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Diseño excepcional"
+            >
+              <div class="pavir-card caracteristicas">
+                <div class="pavir-front caracteristicas">
+                  <div class="pavir-front-content caracteristicas">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/dimensiones.png"
+                      alt="Icono de diseño excepcional"
+                    />
+                    <h4>Burlete perimetral</h4>
+                  </div>
+                  <div class="pavir-icon caracteristicas" aria-hidden="true">
+                    +
+                  </div>
+                </div>
+                <div class="pavir-back caracteristicas">
+                  <p>Mayor hermeticidad y aislación en el marco.</p>
+                  <div class="pavir-icon caracteristicas" aria-hidden="true">
+                    x
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pavir-card-container caracteristicas"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Bisagras resistentes"
+            >
+              <div class="pavir-card caracteristicas">
+                <div class="pavir-front caracteristicas">
+                  <div class="pavir-front-content caracteristicas">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/triplecontacto.png"
+                      alt="Icono de bisagras resistentes"
+                    />
+                    <h4>Triple contacto antibarreta</h4>
+                  </div>
+                  <div class="pavir-icon caracteristicas" aria-hidden="true">
+                    +
+                  </div>
+                </div>
+                <div class="pavir-back caracteristicas">
+                  <p>
+                    Seguridad efectiva en todo el perímetro de la hoja. Hoja de
+                    48 mm de espesor ofreciendo solidez, peso y aislamiento
+                    mejorado.
+                  </p>
+                  <div class="pavir-icon caracteristicas" aria-hidden="true">
+                    x
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pavir-card-container caracteristicas"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Bisagras resistentes"
+            >
+              <div class="pavir-card caracteristicas">
+                <div class="pavir-front caracteristicas">
+                  <div class="pavir-front-content caracteristicas">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/horas.png"
+                      alt="Icono de bisagras resistentes"
+                    />
+                    <h4>1200 horas niebla salina</h4>
+                  </div>
+                  <div class="pavir-icon caracteristicas" aria-hidden="true">
+                    +
+                  </div>
+                </div>
+                <div class="pavir-back caracteristicas">
+                  <p>
+                    Durabilidad superior, comprobada resistencia al clima y al
+                    paso del tiempo.
+                  </p>
+                  <div class="pavir-icon caracteristicas" aria-hidden="true">
+                    x
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pavir-card-container caracteristicas"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Bisagras resistentes"
+            >
+              <div class="pavir-card caracteristicas">
+                <div class="pavir-front caracteristicas">
+                  <div class="pavir-front-content caracteristicas">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/pintura.png"
+                      alt="Icono de bisagras resistentes"
+                    />
+                    <h4>Pintura Poliéster a 220°C.</h4>
+                  </div>
+                  <div class="pavir-icon caracteristicas" aria-hidden="true">
+                    +
+                  </div>
+                </div>
+                <div class="pavir-back caracteristicas">
+                  <p>Máxima duración a la intemperie.</p>
+                  <div class="pavir-icon caracteristicas" aria-hidden="true">
+                    x
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section
+            class="pavir-general-section2 modelos"
+            aria-label="Galería de modelos con cambio de color"
+          >
+            <div class="pavir-contenedor modelos">
+              <h2 class="pavir-encabezados modelos">MODELOS</h2>
+              <div
+                class="pavir-botones modelos"
+                role="group"
+                aria-label="Selector de color de imágenes"
+              >
+                <button
+                  id="pavir-btnBlancoAntartida-modelos"
+                  class="pavir-blanco-active modelos"
+                  aria-pressed="true"
+                  type="button"
+                >
+                  Blanco Antartida
+                </button>
+                <button
+                  id="pavir-btnGrisGrafito-modelos"
+                  class="pavir-negro modelos"
+                  aria-pressed="false"
+                  type="button"
+                >
+                  Gris Grafito
+                </button>
+              </div>
+              <div id="pavir-grid-modelos" class="pavir-grid modelos"></div>
+            </div>
+          </section>
+          <div style="text-align: center; margin-top: 30px">
+            <button
+              id="pavir-section1-close-button"
+              class="pavir-section-close-button caracteristicas"
+              type="button"
+            >
+              Ocultar contenido
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- ===========================
+        FIN: SECCION 1
+=========================== -->
+
+      <!-- ===========================
+        INICIO: SECCION 2
+=========================== -->
+      <section
+        id="pavir-section2-acordeon"
+        class="pavir-section-acordeon residenciales"
+        aria-label="Sección acordeón 2"
+      >
+        <div
+          class="pavir-section-image-container residenciales"
+          role="img"
+          aria-label="Imagen de fondo decorativa 2"
+        >
+          <img
+            src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/2151302657.jpg"
+            alt="Fondo decorativo de sección 2"
+          />
+        </div>
+        <div class="pavir-section-overlay residenciales">
+          <h1 class="pavir-section-title residenciales">RESIDENCIALES</h1>
+          <p class="pavir-p-descripcion-imagen residenciales">
+            <strong
+              >Puertas de presencia imponente, diseño sobrio y seguridad
+              reforzada.</strong
+            ><br />
+            La Línea Residencial de Pavir está pensada para ingresos principales
+            que requieren mayor jerarquía visual sin resignar seguridad. Modelos
+            con hoja ancha, opciones con postigo de vidrio y terminación
+            premium, ideales para viviendas familiares, barrios cerrados y
+            proyectos de categoría.
+          </p>
+          <button
+            id="pavir-section2-toggle-button"
+            class="pavir-section-button residenciales"
+            aria-expanded="false"
+            aria-controls="pavir-section2-acordeon-content"
+          >
+            CARACTERÍSTICAS/MODELOS
+          </button>
+        </div>
+        <div
+          id="pavir-section2-acordeon-content"
+          class="pavir-section-content residenciales"
+          hidden
+        >
+          <h2 class="pavir-encabezados residenciales">CARACTERÍSTICAS</h2>
+          <section
+            class="pavir-cards-row residenciales"
+            aria-label="Sección de cartas informativas"
+          >
+            <div
+              class="pavir-card-container residenciales"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Resistencia y estabilidad"
+            >
+              <div class="pavir-card residenciales">
+                <div class="pavir-front residenciales">
+                  <div class="pavir-front-content residenciales">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/medidas.png"
+                      alt="Icono de formato"
+                    />
+                    <h4>Formato imponente</h4>
+                  </div>
+                  <div class="pavir-icon residenciales" aria-hidden="true">
+                    +
+                  </div>
+                </div>
+                <div class="pavir-back residenciales">
+                  <p>
+                    Modelos disponibles en 1.20 x 2.00 m y 1.30 x 2.20 m, según
+                    diseño. Opción con o sin postigo de vidrio, para cada
+                    necesidad y estilo.
+                  </p>
+                  <div class="pavir-icon residenciales" aria-hidden="true">
+                    x
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Repetir los demás cards igual que arriba, solo con clase residenciales -->
+            <div
+              class="pavir-card-container residenciales"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Cerradura europerfil"
+            >
+              <div class="pavir-card residenciales">
+                <div class="pavir-front residenciales">
+                  <div class="pavir-front-content residenciales">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/cerradura.png"
+                      alt="Icono de cerradura"
+                    />
+                    <h4>Cerradura europerfil</h4>
+                  </div>
+                  <div class="pavir-icon residenciales" aria-hidden="true">
+                    +
+                  </div>
+                </div>
+                <div class="pavir-back residenciales">
+                  <p>Sistema de cierre seguro y moderno.</p>
+                  <div class="pavir-icon residenciales" aria-hidden="true">
+                    x
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pavir-card-container residenciales"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Burlete perimetral"
+            >
+              <div class="pavir-card residenciales">
+                <div class="pavir-front residenciales">
+                  <div class="pavir-front-content residenciales">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/dimensiones.png"
+                      alt="Icono de burlete perimetral"
+                    />
+                    <h4>Burlete perimetral</h4>
+                  </div>
+                  <div class="pavir-icon residenciales" aria-hidden="true">
+                    +
+                  </div>
+                </div>
+                <div class="pavir-back residenciales">
+                  <p>
+                    Hermeticidad y aislamiento termoacústico en todo el marco.
+                  </p>
+                  <div class="pavir-icon residenciales" aria-hidden="true">
+                    x
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pavir-card-container residenciales"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Triple contacto"
+            >
+              <div class="pavir-card residenciales">
+                <div class="pavir-front residenciales">
+                  <div class="pavir-front-content residenciales">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/triplecontacto.png"
+                      alt="Icono de triple contacto"
+                    />
+                    <h4>Triple contacto antibarreta</h4>
+                  </div>
+                  <div class="pavir-icon residenciales" aria-hidden="true">
+                    +
+                  </div>
+                </div>
+                <div class="pavir-back residenciales">
+                  <p>
+                    Mayor seguridad en todo el perímetro de cierre.Hoja de 48 mm
+                    de espesor, sólida, pesada y resistente.
+                  </p>
+                  <div class="pavir-icon residenciales" aria-hidden="true">
+                    x
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pavir-card-container residenciales"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Horas niebla salinas"
+            >
+              <div class="pavir-card residenciales">
+                <div class="pavir-front residenciales">
+                  <div class="pavir-front-content residenciales">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/horas.png"
+                      alt="Icono de horas niebla salinas"
+                    />
+                    <h4>1000 horas niebla salina</h4>
+                  </div>
+                  <div class="pavir-icon residenciales" aria-hidden="true">
+                    +
+                  </div>
+                </div>
+                <div class="pavir-back residenciales">
+                  <p>Apta para exteriores y exposición climática.</p>
+                  <div class="pavir-icon residenciales" aria-hidden="true">
+                    x
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pavir-card-container residenciales"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Terminacion superior"
+            >
+              <div class="pavir-card residenciales">
+                <div class="pavir-front residenciales">
+                  <div class="pavir-front-content residenciales">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/resistencia.png"
+                      alt="Icono resistencia"
+                    />
+                    <h4>Acero electrozincado</h4>
+                  </div>
+                  <div class="pavir-icon residenciales" aria-hidden="true">
+                    +
+                  </div>
+                </div>
+                <div class="pavir-back residenciales">
+                  <p>Estructura robusta, preparada para durar.</p>
+                  <div class="pavir-icon residenciales" aria-hidden="true">
+                    x
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section
+            class="pavir-general-section2 residenciales"
+            aria-label="Galería de modelos con cambio de color"
+          >
+            <div class="pavir-contenedor residenciales">
+              <h2 class="pavir-encabezados residenciales">MODELOS</h2>
+              <div
+                class="pavir-botones residenciales"
+                role="group"
+                aria-label="Selector de color de imágenes"
+              >
+                <button
+                  id="pavir-btnBlancoAntartida-residenciales"
+                  class="pavir-blanco-active residenciales"
+                  aria-pressed="true"
+                  type="button"
+                >
+                  Blanco Antártida
+                </button>
+                <button
+                  id="pavir-btnGrisGrafito-residenciales"
+                  class="pavir-negro residenciales"
+                  aria-pressed="false"
+                  type="button"
+                >
+                  Gris Grafito
+                </button>
+                <button
+                  id="pavir-btnCaoba-residenciales"
+                  class="pavir-caoba residenciales"
+                  aria-pressed="false"
+                  type="button"
+                >
+                  Caoba
+                </button>
+                <button
+                  id="pavir-btnRoble-residenciales"
+                  class="pavir-roble residenciales"
+                  aria-pressed="false"
+                  type="button"
+                >
+                  Roble
+                </button>
+              </div>
+              <div
+                id="pavir-grid-residenciales"
+                class="pavir-grid residenciales"
+              ></div>
+            </div>
+          </section>
+          <div style="text-align: center; margin-top: 30px">
+            <button
+              id="pavir-section2-close-button"
+              class="pavir-section-close-button residenciales"
+              type="button"
+            >
+              Ocultar contenido
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- ===========================
+        FIN: SECCION 2
+=========================== -->
+
+      <!-- ===========================
+        INICIO: SECCION 3
+=========================== -->
+      <section
+        id="pavir-section3-acordeon"
+        class="pavir-section-acordeon acerosimil"
+        aria-label="Sección acordeón 3"
+      >
+        <div
+          class="pavir-section-image-container acerosimil"
+          role="img"
+          aria-label="Imagen de fondo decorativa 3"
+        >
+          <img
+            src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/2151302657.jpg"
+            alt="Fondo decorativo de sección 3"
+          />
+        </div>
+        <div class="pavir-section-overlay acerosimil">
+          <h1 class="pavir-section-title acerosimil">ACERO SIMIL</h1>
+          <p class="pavir-p-descripcion-imagen acerosimil">
+            <strong>La calidez de la madera, la resistencia del acero.</strong
+            ><br />
+            La Línea Símil de Pavir combina la estética natural de la madera con
+            las ventajas técnicas del acero. Diseñadas para brindar seguridad,
+            durabilidad y un acabado premium que se adapta a todo tipo de
+            proyectos.
+          </p>
+          <button
+            id="pavir-section3-toggle-button"
+            class="pavir-section-button acerosimil"
+            aria-expanded="false"
+            aria-controls="pavir-section3-acordeon-content"
+          >
+            CARACTERISTICAS/MODELOS
+          </button>
+        </div>
+        <div
+          id="pavir-section3-acordeon-content"
+          class="pavir-section-content acerosimil"
+          hidden
+        >
+          <h2 class="pavir-encabezados acerosimil">CARACTERISTICAS</h2>
+          <section
+            class="pavir-cards-row acerosimil"
+            aria-label="Sección de cartas informativas"
+          >
+            <div
+              class="pavir-card-container acerosimil"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Resistencia y estabilidad"
+            >
+              <div class="pavir-card acerosimil">
+                <div class="pavir-front acerosimil">
+                  <div class="pavir-front-content acerosimil">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/resistencia.png"
+                      alt="Icono de resistencia"
+                    />
+                    <h4>Acero electrozincado</h4>
+                  </div>
+                  <div class="pavir-icon acerosimil" aria-hidden="true">+</div>
+                </div>
+                <div class="pavir-back acerosimil">
+                  <p>
+                    Máxima resistencia estructural y protección anticorrosiva.
+                  </p>
+                  <div class="pavir-icon acerosimil" aria-hidden="true">x</div>
+                </div>
+              </div>
+            </div>
+            <!-- Repetir el resto de cards igual -->
+            <div
+              class="pavir-card-container acerosimil"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Cerradura europerfil"
+            >
+              <div class="pavir-card acerosimil">
+                <div class="pavir-front acerosimil">
+                  <div class="pavir-front-content acerosimil">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/cerradura.png"
+                      alt="Icono de cerradura"
+                    />
+                    <h4>Cerradura europerfil</h4>
+                  </div>
+                  <div class="pavir-icon acerosimil" aria-hidden="true">+</div>
+                </div>
+                <div class="pavir-back acerosimil">
+                  <p>Seguridad premium y mejor compatibilidad.</p>
+                  <div class="pavir-icon acerosimil" aria-hidden="true">x</div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pavir-card-container acerosimil"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Burlete perimetral"
+            >
+              <div class="pavir-card acerosimil">
+                <div class="pavir-front acerosimil">
+                  <div class="pavir-front-content acerosimil">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/dimensiones.png"
+                      alt="Icono de burlete perimetral"
+                    />
+                    <h4>Burlete perimetral</h4>
+                  </div>
+                  <div class="pavir-icon acerosimil" aria-hidden="true">+</div>
+                </div>
+                <div class="pavir-back acerosimil">
+                  <p>
+                    Hermeticidad y aislamiento termoacústico en todo el marco.
+                  </p>
+                  <div class="pavir-icon acerosimil" aria-hidden="true">x</div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pavir-card-container acerosimil"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Triple contacto"
+            >
+              <div class="pavir-card acerosimil">
+                <div class="pavir-front acerosimil">
+                  <div class="pavir-front-content acerosimil">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/triplecontacto.png"
+                      alt="Icono de triple contacto"
+                    />
+                    <h4>Triple contacto antibarreta</h4>
+                  </div>
+                  <div class="pavir-icon acerosimil" aria-hidden="true">+</div>
+                </div>
+                <div class="pavir-back acerosimil">
+                  <p>
+                    Sistema perimetral de seguridad reforzada. Hoja de 48 mm,
+                    solidez y mayor confort térmico y acústico.
+                  </p>
+                  <div class="pavir-icon acerosimil" aria-hidden="true">x</div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pavir-card-container acerosimil"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Horas niebla salinas"
+            >
+              <div class="pavir-card acerosimil">
+                <div class="pavir-front acerosimil">
+                  <div class="pavir-front-content acerosimil">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/horas.png"
+                      alt="Icono de horas niebla salinas"
+                    />
+                    <h4>1000 horas niebla salina</h4>
+                  </div>
+                  <div class="pavir-icon acerosimil" aria-hidden="true">+</div>
+                </div>
+                <div class="pavir-back acerosimil">
+                  <p>Apta para exteriores y exposición climática.</p>
+                  <div class="pavir-icon acerosimil" aria-hidden="true">x</div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="pavir-card-container acerosimil"
+              tabindex="0"
+              role="button"
+              aria-pressed="false"
+              aria-label="Terminacion superior"
+            >
+              <div class="pavir-card acerosimil">
+                <div class="pavir-front acerosimil">
+                  <div class="pavir-front-content acerosimil">
+                    <img
+                      src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/pintura.png"
+                      alt="Icono de terminacion superior"
+                    />
+                    <h4>Acero con acabado símil madera</h4>
+                  </div>
+                  <div class="pavir-icon acerosimil" aria-hidden="true">+</div>
+                </div>
+                <div class="pavir-back acerosimil">
+                  <p>Realismo visual con alta resistencia al agua y rayos UV</p>
+                  <div class="pavir-icon acerosimil" aria-hidden="true">x</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section
+            class="pavir-general-section2 acerosimil"
+            aria-label="Galería de modelos con cambio de color"
+          >
+            <div class="pavir-contenedor acerosimil">
+              <h2 class="pavir-encabezados acerosimil">MODELOS</h2>
+              <div
+                id="pavir-grid-acerosimil"
+                class="pavir-grid acerosimil"
+              ></div>
+            </div>
+          </section>
+          <div style="text-align: center; margin-top: 30px">
+            <button
+              id="pavir-section3-close-button"
+              class="pavir-section-close-button acerosimil"
+              type="button"
+            >
+              Ocultar contenido
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- ===========================
+        FIN: SECCION 3
+=========================== -->
+    </main>
+
+    <script src="pavir.js"></script>
+    <script src="../js/scripts-globales.js"></script>
+    <script src="../home/home.js"></script>
+    <script src="../clasica/clasica.js"></script>
+    <script src="../aberturas/aberturas.js"></script>
+    <script src="../Pivotantes/pivotantes.js"></script>
+  </body>
+</html>

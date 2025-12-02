@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="../Pivotantes/pivotantes.css">
+    <link rel="stylesheet" href="../aberturas/aberturas.css">
+    <link rel="stylesheet" href="../pavir/pavir.css">
+    <link rel="stylesheet" href="../clasica/clasica.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="../css/estilos-globales.css">
+</head>
+<body>
+    <main>
+        <!-- ===========================
+             INICIO: Navegación principal
+             =========================== -->
+        <nav class="nav-top" role="navigation" aria-label="Menú principal">
+            <!-- Logo -->
+            <img src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/08/logoWhite.png" alt="Logo" class="nav-logo" />
+
+            <!-- Botón hamburguesa para menú móvil -->
+            <button class="nav-hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+                &#9776;
+            </button>
+
+            <!-- Menú de navegación -->
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="https://am-subdominio.pavir.com.ar/wp/clasica/">CLASICA</a></li>
+                <li><a href="https://am-subdominio.pavir.com.ar/wp/lujan/">LUJAN</a></li>
+                <li><a href="https://am-subdominio.pavir.com.ar/wp/pavir/">PAVIR</a></li>
+                <li><a href="#">PIVOTANTES</a></li>
+                <li><a href="https://am-subdominio.pavir.com.ar/wp/aberturas/">ABERTURAS</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <!-- ===========================
+             FIN: Navegación principal
+             =========================== -->
+
+        <!-- ===========================
+             INICIO: Carrusel principal de imágenes
+             =========================== -->
+        <div id="home-carrusel-container">
+            <!-- Slide 1 -->
+            <div class="home-carrusel-slide active" id="home-carrusel-slide-1" style="background-image: url('https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/2151004028.jpg');">
+                <div class="home-carrusel-text" id="home-carrusel-text-1">
+                    <h2>Título Slide 1</h2>
+                    <p>Descripción del slide 1 posicionada al lado izquierdo.</p>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="home-carrusel-slide" id="home-carrusel-slide-2" style="background-image: url('https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/2150799797.jpg');">
+                <div class="home-carrusel-text" id="home-carrusel-text-2">
+                    <h2>Título Slide 2</h2>
+                    <p>Otra descripción que sigue la misma posición y estilo.</p>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="home-carrusel-slide" id="home-carrusel-slide-3" style="background-image: url('https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/2151302657.jpg');">
+                <div class="home-carrusel-text" id="home-carrusel-text-3">
+                    <h2>Título Slide 3</h2>
+                    <p>Más contenido con texto centrado verticalmente al lado izquierdo.</p>
+                </div>
+            </div>
+
+            <!-- Botones flecha para navegar entre slides -->
+            <button id="home-carrusel-prev" class="home-carrusel-arrow" aria-label="Slide anterior">&#10094;</button>
+            <button id="home-carrusel-next" class="home-carrusel-arrow" aria-label="Slide siguiente">&#10095;</button>
+        </div>
+        <!-- ===========================
+             FIN: Carrusel principal de imágenes
+             =========================== -->
+            
+    
+        <!-- ===========================
+             Flip Cards: Comienzo
+             =========================== -->
+        <div class="cards-row">
+            <div class="card-container" tabindex="0">
+                <div class="card">
+                    <div class="front">
+                        <div class="front-content">
+                            <img src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/resistencia.png" />
+                            <h2>Máxima resistencia y estabilidad</h2>
+                        </div>
+                        <div class="icon">+</div>
+                    </div>
+                    <div class="back">
+                        <p>Rigidez y durabilidad inigualables con un perfil de tres cámaras diseñado para una estabilidad óptima.</p>
+                        <div class="icon">x</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container" tabindex="0">
+                <div class="card">
+                    <div class="front">
+                        <div class="front-content">
+                            <img src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/dimensiones.png" />
+                            <h2>Diseño excepcional</h2>
+                        </div>
+                        <div class="icon">+</div>
+                    </div>
+                    <div class="back">
+                        <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño.</p>
+                        <div class="icon">x</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container" tabindex="0">
+                <div class="card">
+                    <div class="front">
+                        <div class="front-content">
+                            <img src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/resistencia.png" alt="Imagen 3" />
+                            <h2>Bisagras resistentes</h2>
+                        </div>
+                        <div class="icon">+</div>
+                    </div>
+                    <div class="back">
+                        <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. </p>
+                        <div class="icon">x</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container" tabindex="0">
+                <div class="card">
+                    <div class="front">
+                        <div class="front-content">
+                            <img src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/resistencia.png" alt=Imagen 3" />
+                            <h2>Bisagras resistentes</h2>
+                        </div>
+                        <div class="icon">+</div>
+                    </div>
+                    <div class="back">
+                        <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. </p>
+                        <div class="icon">x</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-container" tabindex="0">
+                <div class="card">
+                    <div class="front">
+                        <div class="front-content">
+                            <img src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/resistencia.png" alt="Imagen 3" />
+                            <h2>Bisagras resistentes</h2>
+                        </div>
+                        <div class="icon">+</div>
+                    </div>
+                    <div class="back">
+                        <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá.</p>
+                        <div class="icon">x</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ===========================
+             Flip Cards: Final
+             =========================== -->
+
+        <!-- ===========================
+             SECCION 6: INICIO
+             =========================== -->     
+        <div class="home-section6-container">
+            <section class="home-section6-content">
+                <div class="home-section6-left">
+                    <img src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/08/1-section.webp" alt="Puertas modernas 1" class="home-section6-img active" />
+                    <img src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/08/counter.jpg" alt="Puertas modernas 3" class="home-section6-img" />
+                    <div class="home-section6-buttons">
+                        <button id="home-section6-prevBtn" class="home-section6-btn" aria-label="Anterior">←</button>
+                        <button id="home-section6-nextBtn" class="home-section6-btn" aria-label="Siguiente">→</button>
+                    </div>
+                </div>
+
+                <div class="home-section6-right">
+                    <div class="home-section6-line"></div>
+                    <h1 class="home-section6-title">
+                        Lorem ipsum dolor sit amet consectetur
+                    </h1>
+                    <p class="home-section6-description">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit condimentum eu nullam, malesuada risus donec aliquam neque rhoncus netus litora penatibus posuere, nec ut dictumst orci mollis lacinia consequat eget duis. Feugiat ligula cubilia metus natoque quam velit lectus, accumsan justo leo nibh ad. Ridiculus iaculis nulla tellus nisi volutpat quis, odio morbi condimentum augue in, auctor aenean interdum faucibus donec.
+                    </p>
+                </div>
+            </section>
+        </div>
+        <!-- ===========================
+             SECCION 6: FIN
+             =========================== -->
+
+        <!-- ===========================
+             SECCION 7: INICIO
+             =========================== -->
+        <div class="home-section7-card-text">
+            <div class="home-card">
+                <img src="https://cloudfront-us-east-1.images.arcpublishing.com/artear/K6ZJY4AP55FIZINJTE54IC4YRQ.jpg" alt="Imagen">
+                <div class="home-card-text">
+                    <h3>Título de la Card</h3>
+                    <p>Este es el contenido que aparece al al pasar el mouse por arriba de la imagen.</p>
+                </div>
+            </div>
+            <div class="home-card">
+                <img src="https://cloudfront-us-east-1.images.arcpublishing.com/artear/K6ZJY4AP55FIZINJTE54IC4YRQ.jpg" alt="Imagen">
+                <div class="home-card-text">
+                    <h3>Título de la Card</h3>
+                    <p>Este es el contenido que aparece al al pasar el mouse por arriba de la imagen.</p>
+                </div>
+            </div>
+            <div class="home-card">
+                <img src="https://cloudfront-us-east-1.images.arcpublishing.com/artear/K6ZJY4AP55FIZINJTE54IC4YRQ.jpg" alt="Imagen">
+                <div class="home-card-text">
+                    <h3>Título de la Card</h3>
+                    <p>Este es el contenido que aparece al al pasar el mouse por arriba de la imagen.</p>
+                </div>
+            </div>
+        </div>
+        <!-- ===========================
+             SECCION 7: FIN
+             =========================== -->
+
+    </main>
+    <!-- Enlace al archivo JavaScript -->
+    <script src="home.js"></script>
+    <script src="../js/scripts-globales.js"></script>
+    <script src="../clasica/clasica.js"></script>
+    <script src="../pavir/pavir.js"></script>
+    <script src="../aberturas/aberturas.js"></script>
+    <script src="../Pivotantes/pivotantes.js"></script>
+</body>
+</html>

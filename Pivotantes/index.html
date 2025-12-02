@@ -1,0 +1,2872 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pivotantes</title>
+    <link rel="stylesheet" href="../home/home.css" />
+    <link rel="stylesheet" href="../clasica/clasica.css" />
+    <link rel="stylesheet" href="../pavir/pavir.css" />
+    <link rel="stylesheet" href="../aberturas/aberturas.css" />
+    <link rel="stylesheet" href="pivotantes.css" />
+    <link rel="stylesheet" href="../css/estilos-globales.css" />
+  </head>
+  <body>
+    <main>
+      <!-- ===========================
+             INICIO: Navegación principal
+        =========================== -->
+      <nav class="nav-top" role="navigation" aria-label="Menú principal">
+        <!-- Logo -->
+        <a href="https://am-subdominio.pavir.com.ar/wp">
+          <img
+            src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/08/logoWhite.png"
+            alt="Logo"
+            class="nav-logo"
+        /></a>
+
+        <!-- Botón hamburguesa para menú móvil -->
+        <button
+          class="nav-hamburger"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+        >
+          &#9776;
+        </button>
+
+        <!-- Menú de navegación -->
+        <ul class="nav-menu" id="nav-menu">
+          <li>
+            <a href="https://am-subdominio.pavir.com.ar/wp/clasica/">CLASICA</a>
+          </li>
+          <li>
+            <a href="https://am-subdominio.pavir.com.ar/wp/lujan/">LUJAN</a>
+          </li>
+          <li>
+            <a href="https://am-subdominio.pavir.com.ar/wp/pavir/">PAVIR</a>
+          </li>
+          <li>
+            <a href="https://am-subdominio.pavir.com.ar/wp/pivotantes/"
+              >PIVOTANTES</a
+            >
+          </li>
+          <li>
+            <a href="https://am-subdominio.pavir.com.ar/wp/aberturas/"
+              >ABERTURAS</a
+            >
+          </li>
+          <li>
+            <a href="https://am-subdominio.pavir.com.ar/wp/contacto/"
+              >CONTACTO</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- ===========================
+             FIN: Navegación principal
+        =========================== -->
+
+      <!-- ===========================
+             INICIO: Seccion principal del carrusel, con roles y atributos para accesibilidad
+        =========================== -->
+      <!-- Sección principal del carrusel, con roles y atributos para accesibilidad -->
+      <section
+        id="piv-sectionCarrusel-carousel"
+        class="piv-sectionCarrusel-carousel"
+        aria-label="Carrusel de imágenes Pavir"
+        aria-roledescription="carousel"
+      >
+        <!-- Slide 1 activo inicialmente -->
+        <div
+          class="piv-sectionCarrusel-slide piv-sectionCarrusel-slide-active"
+          role="group"
+          aria-roledescription="slide"
+          aria-label="1 de 4"
+        >
+          <!-- Imagen del slide, alt para accesibilidad -->
+          <video
+            src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/10/Alamo.mp4"
+            alt="Pavir Lisas"
+            class="piv-sectionCarrusel-img"
+            autoplay
+            muted
+            playsinline
+            loop
+            preload="auto"
+          ></video>
+          <div class="piv-sectionCarrusel-content">
+            <!-- Subtítulo arriba del título -->
+            <h2 class="piv-sectionCarrusel-subtitle">ELEGANCIA Y POTENCIA.</h2>
+            <div class="piv-sectionCarrusel-title-row">
+              <!-- Botón flecha izquierda con aria-label -->
+              <button
+                class="piv-sectionCarrusel-arrow piv-sectionCarrusel-arrow-left"
+                aria-label="Anterior"
+                tabindex="0"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <!-- Título principal -->
+              <h1 class="piv-sectionCarrusel-title">MOKA / VIDRIO</h1>
+              <!-- Botón flecha derecha -->
+              <button
+                class="piv-sectionCarrusel-arrow piv-sectionCarrusel-arrow-right"
+                aria-label="Siguiente"
+                tabindex="0"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+            <!-- Botón explorar que lleva a su sección -->
+            <a
+              href="#pivot-separador-wallPanel"
+              id="piv-sectionCarrusel-button-1"
+              class="piv-sectionCarrusel-button"
+              role="button"
+              ><span>Explorar</span></a
+            >
+          </div>
+        </div>
+
+        <!-- Slides 2, 3 y 4 con estructura similar (comentarios omitidos por brevedad) -->
+        <div
+          class="piv-sectionCarrusel-slide"
+          role="group"
+          aria-roledescription="slide"
+          aria-label="2 de 4"
+        >
+          <img
+            src="https://ironwroughtdoors.com/cdn/shop/collections/IWD-Modern-Iron-Wrought-Pivot-Doors.jpg?v=1697436037"
+            alt="Pavir Lisas Texturadas"
+            class="piv-sectionCarrusel-img"
+          />
+          <div class="piv-sectionCarrusel-content">
+            <h2 class="piv-sectionCarrusel-subtitle">MAESTRÍA. CONDUCIDA.</h2>
+            <div class="piv-sectionCarrusel-title-row">
+              <button
+                class="piv-sectionCarrusel-arrow piv-sectionCarrusel-arrow-left"
+                aria-label="Anterior"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <h1 class="piv-sectionCarrusel-title">Texturadas</h1>
+              <button
+                class="piv-sectionCarrusel-arrow piv-sectionCarrusel-arrow-right"
+                aria-label="Siguiente"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+            <a
+              href="#pivot-separador-modNuevo"
+              id="piv-sectionCarrusel-button-2"
+              class="piv-sectionCarrusel-button"
+              role="button"
+              ><span>Explorar</span></a
+            >
+          </div>
+        </div>
+
+        <div
+          class="piv-sectionCarrusel-slide"
+          role="group"
+          aria-roledescription="slide"
+          aria-label="3 de 4"
+        >
+          <img
+            src="https://www.panda-windows.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fbqalfhqj%2Fproduction%2F10218946f881624c2916c3aaddffb788767c81d4-832x490.png%3Fw%3D1700&w=3840&q=75"
+            alt="Aston Martin Vantage deportivo rojo"
+            class="piv-sectionCarrusel-img"
+          />
+          <div class="piv-sectionCarrusel-content">
+            <h2 class="piv-sectionCarrusel-subtitle">DISEÑO IMPACTANTE.</h2>
+            <div class="piv-sectionCarrusel-title-row">
+              <button
+                class="piv-sectionCarrusel-arrow piv-sectionCarrusel-arrow-left"
+                aria-label="Anterior"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <h1 class="piv-sectionCarrusel-title">Vantage</h1>
+              <button
+                class="piv-sectionCarrusel-arrow piv-sectionCarrusel-arrow-right"
+                aria-label="Siguiente"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+            <a
+              href="#explorar-3"
+              id="piv-sectionCarrusel-button-3"
+              class="piv-sectionCarrusel-button"
+              role="button"
+              ><span>Explorar</span></a
+            >
+          </div>
+        </div>
+
+        <div
+          class="piv-sectionCarrusel-slide"
+          role="group"
+          aria-roledescription="slide"
+          aria-label="4 de 4"
+        >
+          <img
+            src="image4.jpg"
+            alt="Aston Martin DBS deportivo azul"
+            class="piv-sectionCarrusel-img"
+          />
+          <div class="piv-sectionCarrusel-content">
+            <h2 class="piv-sectionCarrusel-subtitle">POTENCIA Y ESTILO.</h2>
+            <div class="piv-sectionCarrusel-title-row">
+              <button
+                class="piv-sectionCarrusel-arrow piv-sectionCarrusel-arrow-left"
+                aria-label="Anterior"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <h1 class="piv-sectionCarrusel-title">DBS</h1>
+              <button
+                class="piv-sectionCarrusel-arrow piv-sectionCarrusel-arrow-right"
+                aria-label="Siguiente"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+            <a
+              href="#explorar-4"
+              id="piv-sectionCarrusel-button-4"
+              class="piv-sectionCarrusel-button"
+              role="button"
+              ><span>Explorar</span></a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- ===========================
+             FIN: Seccion principal del carrusel, con roles y atributos para accesibilidad
+        =========================== -->
+
+      <!-- ===========================
+             INICIO: TARJETAS CARACTERISTICAS
+        =========================== -->
+      <div class="piv-container-general-cards">
+        <div class="piv-card">
+          <img
+            src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/aluminio2.webp"
+            alt="icono de aluminio"
+          />
+          <h3>Marco y estructura de Aluminio</h3>
+          <p>
+            Totalmente libres de óxido, máxima resistencia al paso del tiempo.
+          </p>
+        </div>
+
+        <div class="piv-card">
+          <img
+            src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/10/laterales-pivotante.webp"
+          />
+          <h3>Combinables con paños fijos</h3>
+          <p>Posibilidad de incorporar módulos superiores o laterales.</p>
+        </div>
+
+        <div class="piv-card">
+          <img
+            src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/45grados.webp"
+            alt="icono de 45 grados"
+          />
+          <h3>Corte a 45° en esquinas</h3>
+          <p>Mejor ajuste, mayor hermeticidad y estética premium.</p>
+        </div>
+
+        <div class="piv-card">
+          <img
+            src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/durabilidad.webp"
+            alt="icono de durabilidad"
+          />
+          <h3>1500 horas niebla salina</h3>
+          <p>Garantía de durabilidad en condiciones extremas.</p>
+        </div>
+
+        <div class="piv-card">
+          <img
+            src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/construccion.webp"
+            alt="icono de construcción seco"
+          />
+          <h3>Instalación en construcción en seco</h3>
+          <p>Practicidad y eficiencia en obra.</p>
+        </div>
+      </div>
+
+      <!-- ===========================
+             FIN: TARJETAS CARACTERISTICAS
+        =========================== -->
+
+      <!-- ===========================
+            INICIO: PIVOTANTES LISAS
+        =========================== -->
+      <section
+        class="pivot-sectionLisas-Container"
+        aria-label="Galería de puertas interiores"
+      >
+        <section
+          id="pivot-sectionLisas-carousel"
+          class="pivot-sectionLisas-carousel"
+          aria-label="Carrusel de imágenes de puertas de madera"
+          aria-roledescription="carousel"
+        >
+          <div
+            class="pivot-sectionLisas-slide pivot-sectionLisas-slide-active"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa blanca ciega, 1 de 8"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_blanca_ciega-scaled.webp"
+              alt="Puerta lisa blanca"
+              class="pivot-sectionLisas-img"
+            />
+            <div class="pivot-sectionLisas-content">
+              <h1 class="pivot-sectionLisas-title">Blanca</h1>
+            </div>
+            <div class="pivot-sectionLisas-title-row">
+              <button
+                class="pivot-sectionLisas-arrow pivot-sectionLisas-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="0"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionLisas-arrow pivot-sectionLisas-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="0"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionLisas-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa gris ciega, 2 de 8"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_gg_ciega-scaled.webp"
+              alt="Puerta lisa gris"
+              class="pivot-sectionLisas-img"
+            />
+            <div class="pivot-sectionLisas-content">
+              <h1 class="pivot-sectionLisas-title">Grafito</h1>
+            </div>
+            <div class="pivot-sectionLisas-title-row">
+              <button
+                class="pivot-sectionLisas-arrow pivot-sectionLisas-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionLisas-arrow pivot-sectionLisas-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionLisas-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa roble, 3 de 8"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_roble_ciega-scaled.webp"
+              alt="Puerta lisa color roble"
+              class="pivot-sectionLisas-img"
+            />
+            <div class="pivot-sectionLisas-content">
+              <h1 class="pivot-sectionLisas-title">Roble</h1>
+            </div>
+            <div class="pivot-sectionLisas-title-row">
+              <button
+                class="pivot-sectionLisas-arrow pivot-sectionLisas-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionLisas-arrow pivot-sectionLisas-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionLisas-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa fresno, 4 de 8"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_fresno_ciega-scaled.webp"
+              alt="Puerta lisa color fresno"
+              class="pivot-sectionLisas-img"
+            />
+            <div class="pivot-sectionLisas-content">
+              <h1 class="pivot-sectionLisas-title">Fresno</h1>
+            </div>
+            <div class="pivot-sectionLisas-title-row">
+              <button
+                class="pivot-sectionLisas-arrow pivot-sectionLisas-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionLisas-arrow pivot-sectionLisas-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionLisas-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa caoba, 5 de 8"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_caoba_ciega-scaled.webp"
+              alt="Puerta lisa color caoba"
+              class="pivot-sectionLisas-img"
+            />
+            <div class="pivot-sectionLisas-content">
+              <h1 class="pivot-sectionLisas-title">Caoba</h1>
+            </div>
+            <div class="pivot-sectionLisas-title-row">
+              <button
+                class="pivot-sectionLisas-arrow pivot-sectionLisas-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionLisas-arrow pivot-sectionLisas-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionLisas-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta nueva 1, 6 de 8"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_fresno_negra_ciega-scaled.webp"
+              alt="Puerta lisa color roble"
+              class="pivot-sectionLisas-img"
+            />
+            <div class="pivot-sectionLisas-content">
+              <h1 class="pivot-sectionLisas-title">Roble/<br />Negro</h1>
+            </div>
+            <div class="pivot-sectionLisas-title-row">
+              <button
+                class="pivot-sectionLisas-arrow pivot-sectionLisas-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="0"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionLisas-arrow pivot-sectionLisas-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="0"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionLisas-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta nueva 2, 7 de 8"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_fresno_champagne_ciega-scaled.webp"
+              alt="Puerta lisa color fresno-champagne"
+              class="pivot-sectionLisas-img"
+            />
+            <div class="pivot-sectionLisas-content">
+              <h1 class="pivot-sectionLisas-title">Fresno/<br />Champagne</h1>
+            </div>
+            <div class="pivot-sectionLisas-title-row">
+              <button
+                class="pivot-sectionLisas-arrow pivot-sectionLisas-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionLisas-arrow pivot-sectionLisas-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionLisas-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta nueva 3, 8 de 8"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_caoba_negra_ciega-scaled.webp"
+              alt="Puerta lisa color caoba-negro"
+              class="pivot-sectionLisas-img"
+            />
+            <div class="pivot-sectionLisas-content">
+              <h1 class="pivot-sectionLisas-title">Caoba/<br />Negro</h1>
+            </div>
+            <div class="pivot-sectionLisas-title-row">
+              <button
+                class="pivot-sectionLisas-arrow pivot-sectionLisas-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionLisas-arrow pivot-sectionLisas-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <aside
+          class="pivot-sectionLisas-DescContainer"
+          aria-label="Descripción de las Puertas"
+        >
+          <p class="pivot-sectionLisas-Desc">
+            Puertas Exteriores Pivotantes LISA<br /><br />
+            Disponibles en: Blanco, Negro, Roble, Fresno y Caoba.<br />
+            Cada puerta cuenta con barral curvo de acero inoxidable y una
+            estética uniforme gracias a que la hoja y su perfilería se presentan
+            en el mismo tono elegido.<br />
+            Incluyen contramarco y cerradura europerfil.<br />
+            Medidas finales disponibles (mm):<br />
+            - 1107 x 2062<br />
+            - 1307 x 2262<br />
+            Opcionales:<br />
+            - Cerradura electrónica básica.<br />
+            - Cerradura electrónica full.
+          </p>
+          <nav
+            class="pivot-sectionLisas-Thumbs"
+            role="list"
+            aria-label="Selector de puertas"
+          >
+            <img
+              class="pivot-sectionLisas-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_blanca_ciega-scaled.webp"
+              alt="Puerta lisa blanca"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionLisas-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_gg_ciega-scaled.webp"
+              alt="Puerta lisa gris"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionLisas-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_roble_ciega-scaled.webp"
+              alt="Puerta lisa color roble"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionLisas-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_fresno_ciega-scaled.webp"
+              alt="Puerta lisa color fresno"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionLisas-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_caoba_ciega-scaled.webp"
+              alt="Puerta lisa color caoba"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionLisas-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_fresno_negra_ciega-scaled.webp"
+              alt="Puerta lisa color roble-negro"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionLisas-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_fresno_champagne_ciega-scaled.webp"
+              alt="Puerta lisa color fresno-champagne"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionLisas-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_caoba_negra_ciega-scaled.webp"
+              alt="Puerta lisa color caoba-negro"
+              role="listitem"
+              tabindex="0"
+            />
+          </nav>
+        </aside>
+      </section>
+      <!-- ===========================
+            FIN: PIVOTANTES LISAS
+        =========================== -->
+
+      <!-- ===========================
+            INICIO: PIVOTANTES LISAS ESPEJO (row-reverse)
+        =========================== -->
+      <section
+        class="pivot-sectionLisas2-Container"
+        aria-label="Galería de puertas interiores espejo"
+        style="flex-direction: row-reverse"
+      >
+        <section
+          id="pivot-sectionLisas2-carousel"
+          class="pivot-sectionLisas2-carousel"
+          aria-label="Carrusel de imágenes de puertas de madera"
+          aria-roledescription="carousel"
+        >
+          <div
+            class="pivot-sectionLisas2-slide pivot-sectionLisas2-slide-active"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa blanca ciega, 1 de 8"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_blanca_postigo_fijo-scaled.webp"
+              alt="Puerta lisa blanca con postigo fijo"
+              class="pivot-sectionLisas2-img"
+            />
+            <div class="pivot-sectionLisas2-content">
+              <h1 class="pivot-sectionLisas2-title">Blanca</h1>
+            </div>
+            <div class="pivot-sectionLisas2-title-row">
+              <button
+                class="pivot-sectionLisas2-arrow pivot-sectionLisas2-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="0"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionLisas2-arrow pivot-sectionLisas2-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="0"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionLisas2-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa gris ciega, 2 de 8"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_gris_grafito_postigo_fijo-scaled.webp"
+              alt="Puerta lisa gris grafito postigo fijo"
+              class="pivot-sectionLisas2-img"
+            />
+            <div class="pivot-sectionLisas2-content">
+              <h1 class="pivot-sectionLisas2-title">Grafito</h1>
+            </div>
+            <div class="pivot-sectionLisas2-title-row">
+              <button
+                class="pivot-sectionLisas2-arrow pivot-sectionLisas2-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionLisas2-arrow pivot-sectionLisas2-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionLisas2-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa roble, 3 de 8"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_roble_postigo_fijo-scaled.webp"
+              alt="Puerta lisa color roble postigo fijo"
+              class="pivot-sectionLisas2-img"
+            />
+            <div class="pivot-sectionLisas2-content">
+              <h1 class="pivot-sectionLisas2-title">Roble</h1>
+            </div>
+            <div class="pivot-sectionLisas2-title-row">
+              <button
+                class="pivot-sectionLisas2-arrow pivot-sectionLisas2-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionLisas2-arrow pivot-sectionLisas2-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionLisas2-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa fresno, 4 de 8"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_fresno_postigo_fijo-scaled.webp"
+              alt="Puerta lisa color fresno postigo fijo"
+              class="pivot-sectionLisas2-img"
+            />
+            <div class="pivot-sectionLisas2-content">
+              <h1 class="pivot-sectionLisas2-title">Fresno</h1>
+            </div>
+            <div class="pivot-sectionLisas2-title-row">
+              <button
+                class="pivot-sectionLisas2-arrow pivot-sectionLisas2-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionLisas2-arrow pivot-sectionLisas2-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionLisas2-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa caoba, 5 de 8"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_caoba_postigo_fijo-scaled.webp"
+              alt="Puerta lisa color caoba postigo fijo"
+              class="pivot-sectionLisas2-img"
+            />
+            <div class="pivot-sectionLisas2-content">
+              <h1 class="pivot-sectionLisas2-title">Caoba</h1>
+            </div>
+            <div class="pivot-sectionLisas2-title-row">
+              <button
+                class="pivot-sectionLisas2-arrow pivot-sectionLisas2-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionLisas2-arrow pivot-sectionLisas2-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionLisas2-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta nueva 1, 6 de 8"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_roble_negro_postigo_fijo-scaled.webp"
+              alt="Puerta lisa color roble-negro postigo fijo"
+              class="pivot-sectionLisas2-img"
+            />
+            <div class="pivot-sectionLisas2-content">
+              <h1 class="pivot-sectionLisas2-title">Roble/<br />Negro</h1>
+            </div>
+            <div class="pivot-sectionLisas2-title-row">
+              <button
+                class="pivot-sectionLisas2-arrow pivot-sectionLisas2-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="0"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionLisas2-arrow pivot-sectionLisas2-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="0"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionLisas2-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta nueva 2, 7 de 8"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_fresno_champagne_postigo_fijo-scaled.webp"
+              alt="Puerta lisa color fresno-champagne postigo fijo"
+              class="pivot-sectionLisas2-img"
+            />
+            <div class="pivot-sectionLisas2-content">
+              <h1 class="pivot-sectionLisas2-title">Fresno/<br />Champagne</h1>
+            </div>
+            <div class="pivot-sectionLisas2-title-row">
+              <button
+                class="pivot-sectionLisas2-arrow pivot-sectionLisas2-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionLisas2-arrow pivot-sectionLisas2-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionLisas2-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta nueva 3, 8 de 8"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_caoba_negro_postigo_fijo-scaled.webp"
+              alt="Puerta lisa color caoba-negro postigo fijo"
+              class="pivot-sectionLisas2-img"
+            />
+            <div class="pivot-sectionLisas2-content">
+              <h1 class="pivot-sectionLisas2-title">Caoba/<br />Negro</h1>
+            </div>
+            <div class="pivot-sectionLisas2-title-row">
+              <button
+                class="pivot-sectionLisas2-arrow pivot-sectionLisas2-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionLisas2-arrow pivot-sectionLisas2-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <aside
+          class="pivot-sectionLisas2-DescContainer"
+          aria-label="Descripción de las Puertas"
+        >
+          <p class="pivot-sectionLisas2-Desc">
+            Puertas Exteriores Pivotantes LISA - Variante Espejo<br /><br />
+            Disponibles en: Blanco, Negro, Roble, Fresno y Caoba.<br />
+            Cada puerta cuenta con barral curvo de acero inoxidable y estética
+            uniforme.<br />
+            Incluyen contramarco y cerradura europerfil.<br />
+            Medidas finales disponibles (mm):<br />
+            - 1107 x 2062<br />
+            - 1307 x 2262<br />
+            Opcionales:<br />
+            - Cerradura electrónica básica.<br />
+            - Cerradura electrónica full.
+          </p>
+          <nav
+            class="pivot-sectionLisas2-Thumbs"
+            role="list"
+            aria-label="Selector de puertas"
+          >
+            <img
+              class="pivot-sectionLisas2-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_blanca_postigo_fijo-scaled.webp"
+              alt="Puerta lisa blanca con postigo fijo"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionLisas2-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_gris_grafito_postigo_fijo-scaled.webp"
+              alt="Puerta lisa gris grafito postigo fijo"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionLisas2-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_roble_postigo_fijo-scaled.webp"
+              alt="Puerta lisa color roble postigo fijo"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionLisas2-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_fresno_postigo_fijo-scaled.webp"
+              alt="Puerta lisa color fresno postigo fijo"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionLisas2-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_caoba_postigo_fijo-scaled.webp"
+              alt="Puerta lisa color caoba postigo fijo"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionLisas2-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_roble_negro_postigo_fijo-scaled.webp"
+              alt="Puerta lisa color roble-negro postigo fijo"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionLisas2-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_fresno_champagne_postigo_fijo-scaled.webp"
+              alt="Puerta lisa color fresno-champagne postigo fijo"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionLisas2-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_caoba_negro_postigo_fijo-scaled.webp"
+              alt="Puerta lisa color caoba-negro postigo fijo"
+              role="listitem"
+              tabindex="0"
+            />
+          </nav>
+        </aside>
+      </section>
+      <!-- ===========================
+            FIN: PIVOTANTES LISAS ESPEJO
+        =========================== -->
+
+      <!-- ===========================
+            INICIO: PUERTAS HORIZONTALES
+        =========================== -->
+      <!-- -------------------- INICIO SECTION HORIZONTALES -------------------- -->
+      <section
+        class="pivot-sectionHorizontales-Container"
+        aria-label="Galería de puertas horizontales"
+      >
+        <section
+          id="pivot-sectionHorizontales-carousel"
+          class="pivot-sectionHorizontales-carousel"
+          aria-label="Carrusel de imágenes de puertas horizontales"
+          aria-roledescription="carousel"
+          role="region"
+        >
+          <div
+            class="pivot-sectionHorizontales-slide pivot-sectionHorizontales-slide-active"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa blanca ciega, 1 de 8"
+            tabindex="0"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_blanca_postigo_fijo-scaled.webp"
+              alt="Puerta lisa blanca sin vidrio"
+              class="pivot-sectionHorizontales-img"
+            />
+            <div class="pivot-sectionHorizontales-content">
+              <h1 class="pivot-sectionHorizontales-title">Blanca</h1>
+            </div>
+            <div class="pivot-sectionHorizontales-title-row">
+              <button
+                type="button"
+                class="pivot-sectionHorizontales-arrow pivot-sectionHorizontales-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="0"
+                role="tab"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="pivot-sectionHorizontales-arrow pivot-sectionHorizontales-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="0"
+                role="tab"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionHorizontales-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa gris ciega, 2 de 8"
+            tabindex="-1"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_gris_grafito_postigo_fijo-scaled.webp"
+              alt="Puerta lisa gris sin vidrio"
+              class="pivot-sectionHorizontales-img"
+            />
+            <div class="pivot-sectionHorizontales-content">
+              <h1 class="pivot-sectionHorizontales-title">Grafito</h1>
+            </div>
+            <div class="pivot-sectionHorizontales-title-row">
+              <button
+                type="button"
+                class="pivot-sectionHorizontales-arrow pivot-sectionHorizontales-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+                role="tab"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="pivot-sectionHorizontales-arrow pivot-sectionHorizontales-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+                role="tab"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionHorizontales-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa roble, 3 de 8"
+            tabindex="-1"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_roble_postigo_fijo-scaled.webp"
+              alt="Puerta lisa color roble sin vidrio"
+              class="pivot-sectionHorizontales-img"
+            />
+            <div class="pivot-sectionHorizontales-content">
+              <h1 class="pivot-sectionHorizontales-title">Roble</h1>
+            </div>
+            <div class="pivot-sectionHorizontales-title-row">
+              <button
+                type="button"
+                class="pivot-sectionHorizontales-arrow pivot-sectionHorizontales-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+                role="tab"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="pivot-sectionHorizontales-arrow pivot-sectionHorizontales-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+                role="tab"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionHorizontales-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa fresno, 4 de 8"
+            tabindex="-1"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_fresno_postigo_fijo-scaled.webp"
+              alt="Puerta lisa color fresno sin vidrio"
+              class="pivot-sectionHorizontales-img"
+            />
+            <div class="pivot-sectionHorizontales-content">
+              <h1 class="pivot-sectionHorizontales-title">Fresno</h1>
+            </div>
+            <div class="pivot-sectionHorizontales-title-row">
+              <button
+                type="button"
+                class="pivot-sectionHorizontales-arrow pivot-sectionHorizontales-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+                role="tab"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="pivot-sectionHorizontales-arrow pivot-sectionHorizontales-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+                role="tab"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionHorizontales-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa caoba, 5 de 8"
+            tabindex="-1"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_caoba_postigo_fijo-scaled.webp"
+              alt="Puerta lisa color caoba sin vidrio"
+              class="pivot-sectionHorizontales-img"
+            />
+            <div class="pivot-sectionHorizontales-content">
+              <h1 class="pivot-sectionHorizontales-title">Caoba</h1>
+            </div>
+            <div class="pivot-sectionHorizontales-title-row">
+              <button
+                type="button"
+                class="pivot-sectionHorizontales-arrow pivot-sectionHorizontales-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+                role="tab"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="pivot-sectionHorizontales-arrow pivot-sectionHorizontales-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+                role="tab"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionHorizontales-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta nueva 1, 6 de 8"
+            tabindex="-1"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_roble_negro_postigo_fijo-scaled.webp"
+              alt="Puerta nueva 1"
+              class="pivot-sectionHorizontales-img"
+            />
+            <div class="pivot-sectionHorizontales-content">
+              <h1 class="pivot-sectionHorizontales-title">Roble/<br />Negro</h1>
+            </div>
+            <div class="pivot-sectionHorizontales-title-row">
+              <button
+                type="button"
+                class="pivot-sectionHorizontales-arrow pivot-sectionHorizontales-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="0"
+                role="tab"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="pivot-sectionHorizontales-arrow pivot-sectionHorizontales-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="0"
+                role="tab"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionHorizontales-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta nueva 2, 7 de 8"
+            tabindex="-1"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_fresno_champagne_postigo_fijo-scaled.webp"
+              alt="Puerta nueva 2"
+              class="pivot-sectionHorizontales-img"
+            />
+            <div class="pivot-sectionHorizontales-content">
+              <h1 class="pivot-sectionHorizontales-title">
+                Fresno/<br />Champagne
+              </h1>
+            </div>
+            <div class="pivot-sectionHorizontales-title-row">
+              <button
+                type="button"
+                class="pivot-sectionHorizontales-arrow pivot-sectionHorizontales-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+                role="tab"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="pivot-sectionHorizontales-arrow pivot-sectionHorizontales-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+                role="tab"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionHorizontales-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta nueva 3, 8 de 8"
+            tabindex="-1"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_caoba_negro_postigo_fijo-scaled.webp"
+              alt="Puerta nueva 3"
+              class="pivot-sectionHorizontales-img"
+            />
+            <div class="pivot-sectionHorizontales-content">
+              <h1 class="pivot-sectionHorizontales-title">Caoba/<br />Negro</h1>
+            </div>
+            <div class="pivot-sectionHorizontales-title-row">
+              <button
+                type="button"
+                class="pivot-sectionHorizontales-arrow pivot-sectionHorizontales-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+                role="tab"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="pivot-sectionHorizontales-arrow pivot-sectionHorizontales-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+                role="tab"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <aside
+          class="pivot-sectionHorizontales-DescContainer"
+          aria-label="Descripción de las Puertas"
+        >
+          <p class="pivot-sectionHorizontales-Desc">
+            Puertas Horizontales Pivotantes<br /><br />
+            Disponibles en: Blanco, Negro, Roble, Fresno y Caoba.<br />
+            Cada puerta cuenta con barral curvo de acero inoxidable y su postigo
+            de vidrio esmerilado 3+3 fijo.<br />
+            Incluyen contramarco y cerradura europerfil.<br />
+            Medidas finales disponibles (mm):<br />
+            - 1107 x 2062<br />
+            - 1307 x 2262<br />
+            Opcionales:<br />
+            - Cerradura electrónica básica.<br />
+            - Cerradura electrónica full.
+          </p>
+          <nav
+            class="pivot-sectionHorizontales-Thumbs"
+            role="list"
+            aria-label="Selector de puertas"
+          >
+            <img
+              class="pivot-sectionHorizontales-Thumb-extra"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_blanca_postigo_fijo-scaled.webp"
+              alt="Pivotante lisa blanca postigo fijo"
+              role="listitem"
+              tabindex="0"
+              aria-controls="pivot-sectionHorizontales-carousel"
+            />
+            <img
+              class="pivot-sectionHorizontales-Thumb-extra"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_gris_grafito_postigo_fijo-scaled.webp"
+              alt="Pivotante lisa gris garfito postigo fijo"
+              role="listitem"
+              tabindex="-1"
+              aria-controls="pivot-sectionHorizontales-carousel"
+            />
+            <img
+              class="pivot-sectionHorizontales-Thumb-extra"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_roble_postigo_fijo-scaled.webp"
+              alt="Pivotante lisa roble postigo fijo"
+              role="listitem"
+              tabindex="-1"
+              aria-controls="pivot-sectionHorizontales-carousel"
+            />
+            <img
+              class="pivot-sectionHorizontales-Thumb-extra"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_fresno_postigo_fijo-scaled.webp"
+              alt="Pivotante lisa fresno postigo fijo"
+              role="listitem"
+              tabindex="-1"
+              aria-controls="pivot-sectionHorizontales-carousel"
+            />
+            <img
+              class="pivot-sectionHorizontales-Thumb-extra"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_caoba_postigo_fijo-scaled.webp"
+              alt="Pivotante lisa caoba postigo fijo"
+              role="listitem"
+              tabindex="-1"
+              aria-controls="pivot-sectionHorizontales-carousel"
+            />
+            <img
+              class="pivot-sectionHorizontales-Thumb-extra"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_roble_negro_postigo_fijo-scaled.webp"
+              alt="Pivotante roble negra con postigo fijo"
+              role="listitem"
+              tabindex="-1"
+              aria-controls="pivot-sectionHorizontales-carousel"
+            />
+            <img
+              class="pivot-sectionHorizontales-Thumb-extra"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_fresno_champagne_postigo_fijo-scaled.webp"
+              alt="Pivotante fresno champagne con postigo fijo"
+              role="listitem"
+              tabindex="-1"
+              aria-controls="pivot-sectionHorizontales-carousel"
+            />
+            <img
+              class="pivot-sectionHorizontales-Thumb-extra"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_caoba_negro_postigo_fijo-scaled.webp"
+              alt="Pivotante caoba negra con postigo fijo"
+              role="listitem"
+              tabindex="-1"
+              aria-controls="pivot-sectionHorizontales-carousel"
+            />
+          </nav>
+        </aside>
+      </section>
+      <!-- -------------------- FIN SECTION HORIZONTALES -------------------- -->
+      <!-- ===========================
+            FIN: PUERTAS HORIZONTALES
+        =========================== -->
+
+      <!-- ===========================
+             INICIO: PIVOTANTES TEXTURADAS
+        =========================== -->
+      <div class="piv-tercera-seccion-grid">
+        <div class="piv-tercera-seccion-grid-card">
+          <img
+            src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/texturada-con-apliques-decorativos-scaled.webp"
+            alt="puerta-pivotante-texturada-pavir"
+          />
+          <p>Texturada</p>
+        </div>
+
+        <div class="piv-tercera-seccion-grid-card">
+          <img
+            src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/texturada-scaled.webp"
+            alt="puerta-pivotante-texturada-pavir"
+          />
+          <p>Texturada <br />con apliques decorativos</p>
+        </div>
+
+        <div class="piv-tercera-seccion-grid-card">
+          <img
+            src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/gris-alecrim-apliques-scaled.webp"
+            alt="puerta-pivotante-gris-alecrim-con-apliques-decorativos-pavir"
+          />
+          <p>
+            Gris Alecrim <br />
+            con apliques decorativos
+          </p>
+        </div>
+
+        <div class="piv-tercera-seccion-grid-card">
+          <img
+            src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/champagne-travertino-apliques-scaled.webp"
+            alt="puerta-pivotante-champagne-travertino-apliques-decorativos-pavir"
+          />
+          <p>Champagne Travertino <br />con apliques decorativo</p>
+        </div>
+      </div>
+
+      <!-- ===========================
+             FIN: PIVOTANTES TEXTURADAS
+        =========================== -->
+
+      <!-- ===========================
+            INICIO: SECCION DE CERRADURAS INTELIGENTES
+        =========================== -->
+
+      <div class="piv-container-cards-cerraduras-global">
+        <div class="piv-container-cards-cerraduras">
+          <img
+            src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/10/cerradura-inteligente-basica-920-1160.webp"
+            alt="cerradura-electronica-basica-puertas-pivotantes"
+          />
+          <div class="piv-card-cerradura">
+            <h3>Cerradura Inteligente BÁSICA</h3>
+            <p>
+              Seguridad confiable con acceso por código, tarjeta o huella
+              digital.<br />
+              Conexión WiFi para control fácil desde la app e incluye llave de
+              respaldo.<br />
+              Diseño minimalista, ideal para quienes buscan tecnología sin
+              complicaciones.
+            </p>
+          </div>
+        </div>
+        <div class="piv-container-cards-cerraduras">
+          <img
+            src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/10/cerradura-inteligente-full-920-1160.webp"
+            alt="cerradura-full-electronica-puertas-pivotantes"
+          />
+          <div class="piv-card-cerradura">
+            <h3>Cerradura Inteligente FULL</h3>
+            <p>
+              Reconocimiento por rostro 3D, más huella digital, PIN, tarjeta y
+              llave de respaldo. <br />
+              Cámara HD pantalla a color de 3,5″, Wi-Fi y app para desbloqueo
+              remoto y timbre. <br />
+              Auto-locking, emergencia por USB-C, batería de larga duración y
+              alertas de seguridad por manipulación u obstrucción.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ===========================
+            FIN: SECCION DE CERRADURAS INTELIGENTES
+        =========================== -->
+
+      <div id="pivot-separador-wallPanel" class="pivot-separador"></div>
+
+      <!-- ===========================
+            INICIO: PIVOTANTES WALL PANEL
+        =========================== -->
+      <section
+        class="pivot-sectionWallPanel-Container"
+        aria-label="Galería de paneles de pared pivotantes"
+      >
+        <section
+          id="pivot-sectionWallPanel-carousel"
+          class="pivot-sectionWallPanel-carousel"
+          aria-label="Carrusel de imágenes de paneles de pared"
+          aria-roledescription="carousel"
+        >
+          <div
+            class="pivot-sectionWallPanel-slide pivot-sectionWallPanel-slide-active"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Panel blanco, 1 de 4"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/wall_panel_roble-scaled.webp"
+              alt="Wall Panel Roble"
+              class="pivot-sectionWallPanel-img"
+            />
+            <div class="pivot-sectionWallPanel-content">
+              <h1 class="pivot-sectionWallPanel-title">Roble</h1>
+            </div>
+            <div class="pivot-sectionWallPanel-title-row">
+              <button
+                class="pivot-sectionWallPanel-arrow pivot-sectionWallPanel-arrow-left"
+                aria-label="Anterior panel"
+                tabindex="0"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionWallPanel-arrow pivot-sectionWallPanel-arrow-right"
+                aria-label="Siguiente panel"
+                tabindex="0"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionWallPanel-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Panel gris, 2 de 4"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/wall_panel_kitami-scaled.webp"
+              alt="Wall Panel Kitami"
+              class="pivot-sectionWallPanel-img"
+            />
+            <div class="pivot-sectionWallPanel-content">
+              <h1 class="pivot-sectionWallPanel-title">Kitami</h1>
+            </div>
+            <div class="pivot-sectionWallPanel-title-row">
+              <button
+                class="pivot-sectionWallPanel-arrow pivot-sectionWallPanel-arrow-left"
+                aria-label="Anterior panel"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionWallPanel-arrow pivot-sectionWallPanel-arrow-right"
+                aria-label="Siguiente panel"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionWallPanel-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Panel roble, 3 de 4"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/wall_panel_caoba-scaled.webp"
+              alt="Wall Panel Caoba"
+              class="pivot-sectionWallPanel-img"
+            />
+            <div class="pivot-sectionWallPanel-content">
+              <h1 class="pivot-sectionWallPanel-title">Caoba</h1>
+            </div>
+            <div class="pivot-sectionWallPanel-title-row">
+              <button
+                class="pivot-sectionWallPanel-arrow pivot-sectionWallPanel-arrow-left"
+                aria-label="Anterior panel"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionWallPanel-arrow pivot-sectionWallPanel-arrow-right"
+                aria-label="Siguiente panel"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionWallPanel-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Panel caoba, 4 de 4"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/wall_panel_kitami_caoba-scaled.webp"
+              alt="Wall Panel Kitami Caoba"
+              class="pivot-sectionWallPanel-img"
+            />
+            <div class="pivot-sectionWallPanel-content">
+              <h1 class="pivot-sectionWallPanel-title">Kitami/<br />Caoba</h1>
+            </div>
+            <div class="pivot-sectionWallPanel-title-row">
+              <button
+                class="pivot-sectionWallPanel-arrow pivot-sectionWallPanel-arrow-left"
+                aria-label="Anterior panel"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionWallPanel-arrow pivot-sectionWallPanel-arrow-right"
+                aria-label="Siguiente panel"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <aside
+          class="pivot-sectionWallPanel-DescContainer"
+          aria-label="Descripción de los paneles"
+        >
+          <p class="pivot-sectionWallPanel-Desc">
+            PUERTAS EXTERIORES PIVOTANTES - MODELO WALL PANEL<br />
+            - Medidas: 1307 x 2262 mm y 1307 x 2462 mm.<br />
+            - Barral de acero plegado en el color del perfil de cada modelo.<br />
+            - Cerradura Europerfil. Opcional cerradura electrónica básica y
+            full.<br />
+            - <b>Modelo Roble</b><br />
+            Hoja: Golden Oak - Roble / Perfilería: Roble<br />
+            - <b>Modelo Kitami</b><br />
+            Hoja: Kitami / Perfilería: Grafito<br />
+            - <b>Modelo Caoba</b><br />
+            Hoja: Caoba / Perfilería: Caoba<br />
+            - <b>Modelo Caoba/Kitami</b><br />
+            Hoja: Kitami/Caoba / Perfilería: Grafito<br />
+          </p>
+          <nav
+            class="pivot-sectionWallPanel-Thumbs"
+            role="list"
+            aria-label="Selector de paneles"
+          >
+            <img
+              class="pivot-sectionWallPanel-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/wall_panel_roble-scaled.webp"
+              alt="Wall Panel Roble"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionWallPanel-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/wall_panel_kitami-scaled.webp"
+              alt="Wall Panel Kitami"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionWallPanel-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/wall_panel_caoba-scaled.webp"
+              alt="Wall Panel Caoba"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionWallPanel-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/wall_panel_kitami_caoba-scaled.webp"
+              alt="Wall Panel Kitami Caoba"
+              role="listitem"
+              tabindex="0"
+            />
+          </nav>
+        </aside>
+      </section>
+      <!-- ===========================
+            FIN: PIVOTANTES WALL PANEL
+        =========================== -->
+
+      <div id="pivot-separador-modNuevo" class="pivot-separador"></div>
+
+      <!-- ===========================
+            INICIO: PIVOTANTES MOD NUEVO
+        =========================== -->
+      <section
+        class="pivot-sectionModNuevo-Container"
+        aria-label="Galería de puertas interiores espejo"
+        style="flex-direction: row-reverse"
+      >
+        <section
+          id="pivot-sectionModNuevo-carousel"
+          class="pivot-sectionModNuevo-carousel"
+          aria-label="Carrusel de imágenes de nuevas puertas"
+          aria-roledescription="carousel"
+        >
+          <div
+            class="pivot-sectionModNuevo-slide pivot-sectionModNuevo-slide-active"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa blanca ciega, 1 de 4"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_alamo-scaled.webp"
+              alt="Puerta Alamo"
+              class="pivot-sectionModNuevo-img"
+            />
+            <div class="pivot-sectionModNuevo-content">
+              <h1 class="pivot-sectionModNuevo-title">Alamo</h1>
+            </div>
+            <div class="pivot-sectionModNuevo-title-row">
+              <button
+                class="pivot-sectionModNuevo-arrow pivot-sectionModNuevo-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="0"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionModNuevo-arrow pivot-sectionModNuevo-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="0"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionModNuevo-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa gris ciega, 2 de 4"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lias_moka-scaled.webp"
+              alt="Puerta Moka"
+              class="pivot-sectionModNuevo-img"
+            />
+            <div class="pivot-sectionModNuevo-content">
+              <h1 class="pivot-sectionModNuevo-title">Moka</h1>
+            </div>
+            <div class="pivot-sectionModNuevo-title-row">
+              <button
+                class="pivot-sectionModNuevo-arrow pivot-sectionModNuevo-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionModNuevo-arrow pivot-sectionModNuevo-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionModNuevo-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa roble, 3 de 4"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_moka_vidrio_templado-scaled.webp"
+              alt="Puerta moka vidrio"
+              class="pivot-sectionModNuevo-img"
+            />
+            <div class="pivot-sectionModNuevo-content">
+              <h1 class="pivot-sectionModNuevo-title">Moka/<br />Vidrio</h1>
+            </div>
+            <div class="pivot-sectionModNuevo-title-row">
+              <button
+                class="pivot-sectionModNuevo-arrow pivot-sectionModNuevo-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionModNuevo-arrow pivot-sectionModNuevo-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="pivot-sectionModNuevo-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Puerta lisa fresno, 4 de 4"
+          >
+            <img
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_vidrio_templado_carrara-scaled.webp"
+              alt="Puerta Carrara"
+              class="pivot-sectionModNuevo-img"
+            />
+            <div class="pivot-sectionModNuevo-content">
+              <h1 class="pivot-sectionModNuevo-title">Carrara</h1>
+            </div>
+            <div class="pivot-sectionModNuevo-title-row">
+              <button
+                class="pivot-sectionModNuevo-arrow pivot-sectionModNuevo-arrow-left"
+                aria-label="Anterior puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M50 12H10" />
+                  <path d="M20 2L10 12L20 22" />
+                </svg>
+              </button>
+              <button
+                class="pivot-sectionModNuevo-arrow pivot-sectionModNuevo-arrow-right"
+                aria-label="Siguiente puerta"
+                tabindex="-1"
+              >
+                <svg
+                  width="60"
+                  height="24"
+                  viewBox="0 0 60 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="#970107"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M10 12H50" />
+                  <path d="M40 2L50 12L40 22" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <aside
+          class="pivot-sectionModNuevo-DescContainer"
+          aria-label="Descripción de las Puertas"
+        >
+          <p class="pivot-sectionModNuevo-Desc">
+            PUERTAS PIVOTANTES - MODELOS NUEVA COLECCIÓN<br />
+            -Medidas: 1307 x 2262 mm y 1307 x 2462 mm.<br />
+            - Cerradura Europerfil. Opcional cerradura electrónica básica y
+            full.<br />
+            - <b>Modelo Alamo</b><br />
+            Hoja: Alamo / Perfilería: Fresno. - Barral: acero inoxidable.<br />
+            - <b>Modelo Moka</b><br />
+            Hoja: Moka / Perfilería: Grafito. - Barral: acero inoxidable plegado
+            Grafito.<br />
+            - <b>Modelo Moka + Vidrio</b><br />
+            Hoja: Vidrio Templado + Moka / Perfilería: Negro. - Barral: acero
+            inoxidable.<br />
+            -<b>Modelo Onix vidrio</b><br />
+            Hoja: Vidrio templado + Carraca / Perfilería: Negro. - Barral: acero
+            inoxidable plegado Negro.
+          </p>
+          <nav
+            class="pivot-sectionModNuevo-Thumbs"
+            role="list"
+            aria-label="Selector de puertas"
+          >
+            <img
+              class="pivot-sectionModNuevo-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_alamo-scaled.webp"
+              alt="Puerta Alamo"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionModNuevo-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lias_moka-scaled.webp"
+              alt="Puerta Moka"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionModNuevo-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_moka_vidrio_templado-scaled.webp"
+              alt="Puerta moka vidrio"
+              role="listitem"
+              tabindex="0"
+            />
+            <img
+              class="pivot-sectionModNuevo-Thumb"
+              src="https://am-subdominio.pavir.com.ar/wp/wp-content/uploads/2025/09/lisa_vidrio_templado_carrara-scaled.webp"
+              alt="Puerta Carrara"
+              role="listitem"
+              tabindex="0"
+            />
+          </nav>
+        </aside>
+      </section>
+      <!-- ===========================
+            FIN: PIVOTANTES MOD NUEVO
+        =========================== -->
+    </main>
+    <script src="pivotantes.js"></script>
+    <script src="../js/scripts-globales.js"></script>
+    <script src="../home/home.js"></script>
+    <script src="../clasica/clasica.js"></script>
+    <script src="../pavir/pavir.js"></script>
+    <script src="../aberturas/aberturas.js"></script>
+  </body>
+</html>
